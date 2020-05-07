@@ -4,4 +4,4 @@ NDVI value ranges between -1.0 and +1.0. Generally speaking, NDVI shows a functi
 
 NDVI= (NIR-Red) \ (NIR+Red)
 
-Follow the <a href = "https://bikeshbade.com.np/tutorials/Detail/?title=Calculate%20NDVI%20from%20Sentinel-2%20%20with%20Python%20API&code=18" target="_blank">link</a> for all detail information with the code
+Follow the <a href = "https://bikeshbade.com.np/tutorials/Detail/?title=Calculate%20NDVI%20from%20Sentinel-2%20%20with%20Python%20API&code=18" target = "_blank">link</a> for all detail information with the code
