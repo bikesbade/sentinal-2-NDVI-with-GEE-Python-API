@@ -15,7 +15,7 @@ def importData(studyArea,startDate,endDate):
     # Get Sentinel-2 data
     s2s =(ee.ImageCollection('COPERNICUS/S2')
           .filterDate(startDate,endDate)
-#           .filterBounds(studyArea)
+          .filterBounds(studyArea)
           .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',CloudCoverMax))
           .filter(ee.Filter.lt('CLOUD_COVERAGE_ASSESSMENT',CloudCoverMax)))
     

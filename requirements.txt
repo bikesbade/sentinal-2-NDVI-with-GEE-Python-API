@@ -1,0 +1,7 @@
+earthengine-api==0.1.182
+folium==0.10.1
+geetools==0.4.15
+google-api-python-client==1.7.11
+ipygee==0.0.14
+pandas==1.0.3
+
