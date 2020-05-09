@@ -72,7 +72,7 @@ class foliumInitialize:
         self.height = height
     
     def Initialize(self):
-        folium.Map.add_ee_layer = add_ee_layer2
+        folium.Map.add_ee_layer = add_ee_layer
         return folium.Map(location=self.location, zoom_start=self.zoom_start, height=self.height)
 
 
